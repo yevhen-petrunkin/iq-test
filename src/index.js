@@ -18,9 +18,5 @@ heading.textContent = example()
 const imageBackground = document.createElement('div')
 imageBackground.classList.add('image')
 
-// Test a public folder asset
-const imagePublic = document.createElement('img')
-imagePublic.src = '/assets/example.png'
-
 const app = document.querySelector('#root')
-app.append(logo, heading, imageBackground, imagePublic)
+app.append(logo, heading, imageBackground)
