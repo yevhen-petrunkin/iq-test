@@ -1,0 +1,29 @@
+$font-size: 1rem;
+$background-color: #121212;
+
+$page-width: 650px;
+$font-families: (
+  'pt-serif': "'PTSerif', serif",
+  'roboto': "'Roboto', sans-serif",
+  'merriweather': "'Merriweather', serif",
+  'oswald': "'Oswald', sans-serif",
+  'yeseva-one': "'Yeseva One', cursive",
+);
+$colors: (
+  'default': #ffffff,
+  'primary': #dadada,
+  'secondary': #181818,
+  'accent': #ffc700,
+  'btn-primary': #0d0c11,
+  'btn-bg': #8e8e8e,
+  'selection': #2950c2,
+  'addition-first': #0c0b10,
+  'addition-second': #272727,
+  'info': #1c2741,
+  'success': #3bde7c,
+  'warning': #eb1b00,
+  'bar-default': #f2f3f3,
+  'bar-accent': #3bde7c,
+  'alpha-first': rgba(243, 243, 242, 0.8),
+  'alpha-second': rgba(255, 255, 255, 0.5),
+);
